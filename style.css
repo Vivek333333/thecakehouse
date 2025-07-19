@@ -1,0 +1,258 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html,body{
+height: 100%;
+width: 100%;
+}
+
+#nav{
+    height: 70px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#title{
+    scale: 0.5;
+width: 10px;
+padding: 10px;
+}
+    
+@media(max-width:460px)
+{
+    #title{
+        scale: 0.3;
+    }
+
+    #tagline{
+        font-size: 12px;
+        width: 250px;
+    }
+
+    #buttons{
+        scale: 0.8;
+    }
+}
+
+@media(min-width:500px)
+{
+   
+    #tagline{
+        width: 450px;
+    }
+}
+
+@media(max-width:375px)
+{
+    img{
+        scale: 0.8;
+    }
+
+    #categoriestext{
+        scale: 0.8;
+    }
+
+    #caketxt{
+        scale: 0.8;
+    }
+
+    #addbutton{
+        scale: 0.8;
+    }
+}
+
+#buttons{
+    padding-right: 20px;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    color: blueviolet;
+    padding: 6px;
+    margin: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#bgimg {
+    width: 100%;
+    height: 300px;
+    color: aliceblue;
+    background-image: url("cake bg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#bgimg h1{
+    padding-top: 100px;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+
+#body{
+    background-image: url("bg.png");
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#body>div{
+    margin-top: 40px;
+}
+
+#whitebg{
+    height: 100%;
+    width: 75%;
+    color: rgb(94, 17, 17);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+#whitebg>h1{
+    background-color: rgb(232, 232, 232);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 20px;
+    font-family: cursive;
+}
+
+#categories{
+     height: 150px;
+     display: flex;
+     justify-content: space-evenly;
+     background-color: rgb(232, 232, 232);
+     border-bottom-right-radius: 25px;
+     border-bottom-left-radius: 25px;
+     overflow: auto;
+}
+
+#addcategories{
+    height: 150px;
+    width: 100px;
+    align-content: center;
+}
+
+#addcategories img{
+height: 75px;
+border-radius: 50%;
+}
+
+#categoriestext{
+    margin-top: 15px;
+    height: 40px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color:  rgb(94, 17, 17);
+}
+
+#pastry{
+    height: 150px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    align-content: center;
+   
+}
+
+#pastry img{
+height: 75px;
+border-radius: 50%;
+}
+
+#pastry h3{
+    margin-top: 15px;
+}
+
+#cupcake{
+    height: 150px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0);
+   align-content: center;
+}
+
+#cupcake img{
+height: 75px;
+border-radius: 50%;
+}
+
+#cupcake h3{
+    margin-top: 15px;
+}
+
+#topselling>h1{
+padding: 20px;
+font-family: cursive;
+}
+
+#topcake img{
+    height: 80px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#topcake div{
+   display: flex;
+   justify-content: center;
+}
+
+#topitem {
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#caketxt{
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+} 
+
+#caketxt h4{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+#addbutton{
+    background-color: blueviolet;
+    color: white;
+    padding: 8px;
+    font-size: xx-small;
+}
+
+#categoriesstyle{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+
+#categoriesstyle img{
+width: 80px;
+}
+
+
